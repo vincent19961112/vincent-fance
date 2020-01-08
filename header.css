@@ -1,0 +1,128 @@
+body{
+    margin:0px;
+    padding:0px;
+    }
+.navbar{
+    margin:0px;
+    padding:0px;
+}
+p{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 20px;
+}
+h1{
+    color: #52C7D0;
+    font-size: 55px;
+}
+h2{
+    color: #52C7D0;
+    font-size: 50px;
+}
+h3{
+    color: #52C7D0;
+    font-size: 45px;
+}
+h4{
+    color: #52C7D0;
+    font-size: 40px;
+}
+h5{
+    color: #52C7D0;
+    font-size: 35px;
+}
+h6{
+    color: #52C7D0;
+    font-size: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ma Shan Zheng', cursive;
+}
+ul{
+
+}
+li{
+    list-style-type: none;
+}
+li a{
+
+}
+.section-content{
+    float: right;
+    padding-top: 50px;
+    padding-left: 50px;
+    max-height: 100%;
+    background-color: rgb(255, 191, 113);
+    width: 75%;
+}
+.navbar-brand{
+    font-family: 'Ma Shan Zheng', cursive;
+    text-shadow: 11px 7px 4px rgba(206,47,200,0.84); 
+    font-size: 55px;
+}
+.navbar-Header{
+ min-height: 10vh;
+ min-width: 100%;
+ padding-left: 2%;
+ padding-right: 2%;
+background: -moz-linear-gradient(top, #C224CE 0%, #9489A4 50%, #BEC0C5 100%);
+background: -webkit-linear-gradient(top, #C224CE 0%, #9489A4 50%, #BEC0C5 100%);
+background: linear-gradient(to bottom, #C224CE 0%, #9489A4 50%, #BEC0C5 100%);
+ display: flex;
+ flex-direction: row;
+ justify-content: start;
+ align-items: center;
+}
+.navbar-Header a:hover{
+    color: darkblue;
+    text-shadow: 11px 7px 4px rgba(137, 24, 212, 0.84);
+}
+.nav-item{
+    padding-left: 3%;
+    padding-right: 3%;
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: auto;
+}
+.nav-link{    
+    color: rgb(24, 102, 95);
+    font-size: 20px;
+}
+.card-img-top{
+    width: 40rem;
+    height: 20rem;
+}
+.aside-list{
+    max-width: 25%;
+    background-color: rgb(83, 200, 221);
+    
+}
+.year{
+
+    text-align:center;
+}
+.year a{
+    display: block;
+}
+.year a:hover{
+    display: block;
+    background-color: rgb(0, 119, 238);
+}
+.year a:active{
+    display: block;
+    background-color: rgb(15, 110, 219);
+}
+.year-month{
+    display:none;
+    text-align:center;
+}
+.year-month a{
+    display:block;
+}
+.year-month a:hover{
+    display: block;
+    background-color:rgb(23, 231, 214) ;
+}
+.year-month a:active{
+    display: block;
+    background-color:rgb(23, 231, 214) ;
+}
